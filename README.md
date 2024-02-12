@@ -32,3 +32,7 @@ berikut alur kerja notebook ini:
 10. khusus untuk bahasa (sunda & jawa) sebelum model dilatih dengan T5 small,kita unsupervised learning dahulu dengan data bahasa sunda-jawa dari data set CC100,@300k rows)
 11. lakukan metrix evaluasi untuk machine translasi(Bleu score, Meteor,dan Bleurt Score)
 12. Terakhir, lakukan Predict Hasil Terjemahan, dan bandingkan dengan target, apakah dapat dimengerti manusia
+
+source dataset:
+https://github.com/IndoNLP/nusax
+https://huggingface.co/datasets/cc100
